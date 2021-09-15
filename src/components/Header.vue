@@ -6,7 +6,10 @@
         <div class="row h-100 align-items-center">
           <!-- Contact -->
           <div class="col-6">
-            <p class="m-0">Call us for a Free Quote: 1.800.555.6789</p>
+            <p class="m-0">
+              <i class="fas fa-phone me-3"></i>Call us for a Free Quote:
+              1.800.555.6789
+            </p>
           </div>
 
           <!-- Social Icons -->
@@ -75,8 +78,10 @@ header {
     height: 50px;
     background-color: $lima-dark-vibrant;
     color: white;
-    span {
-      font-size: 1em;
+    font-size: 0.9em;
+    .fas,
+    .fab {
+      font-size: 1.3em;
     }
   }
 
@@ -89,15 +94,6 @@ header {
     }
     .nav-links:hover {
       color: $lima-dark-vibrant;
-    }
-
-    .btn-denim {
-      background-color: $denim-vibrant;
-      border-radius: 30px;
-      padding: 10px 40px;
-      color: white;
-      font-size: 0.9em;
-      font-weight: 700;
     }
   }
 }

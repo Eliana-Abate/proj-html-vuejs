@@ -14,9 +14,11 @@ export default {
 @import "../assets/scss/_variables.scss";
 
 #slogan-jumbo {
-  height: 500px;
+  height: 800px;
   background-image: url("../assets/images/avada-movers-homeherobackground-final.jpg");
-  background-size: cover;
+  background-size: 155%;
+  background-position-x: center;
+  background-position-y: 60px;
   background-repeat: no-repeat;
 }
 </style>
