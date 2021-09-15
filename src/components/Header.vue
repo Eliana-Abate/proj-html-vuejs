@@ -1,6 +1,14 @@
 <template>
   <header>
-    <h1>Test</h1>
+    <section id="top-header">
+      <div class="container">
+        <div class="row">
+          <p>Call us for a Free Quote: 1.800.555.6789</p>
+          <p></p>
+        </div>
+      </div>
+    </section>
+    <section id="bottom-header"></section>
   </header>
 </template>
 
@@ -12,7 +20,16 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/scss/_variables.scss";
-h1 {
-  color: $lima;
+header {
+  height: 160px;
+  #top-header {
+    height: 50px;
+    background-color: $lima-dark-vibrant;
+    color: white;
+  }
+  #bottom-header {
+    height: 110px;
+    background-color: violet;
+  }
 }
 </style>
