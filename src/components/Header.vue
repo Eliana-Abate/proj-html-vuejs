@@ -66,7 +66,11 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/scss/_variables.scss";
 header {
+  width: 100%;
   height: 160px;
+  position: fixed;
+  top: 0;
+  left: 0;
   #top-header {
     height: 50px;
     background-color: $lima-dark-vibrant;
