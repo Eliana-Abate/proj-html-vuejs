@@ -23,7 +23,24 @@
     <!-- BOTTOM HEADER -->
     <section id="bottom-header">
       <div class="container h-100">
-        <div class="row h-100 align-items-center"></div>
+        <div class="row h-100 align-items-center">
+          <!-- Logo -->
+          <div class="col-5">
+            <img
+              src="../assets/images/avada-movers-logo.png"
+              alt="avada-movers-logo"
+            />
+          </div>
+
+          <!-- Navbar -->
+          <div class="col-7">
+            <nav class="navbar">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Link</a>
+              </div>
+            </nav>
+          </div>
+        </div>
       </div>
     </section>
   </header>

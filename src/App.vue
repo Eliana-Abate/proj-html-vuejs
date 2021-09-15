@@ -18,6 +18,18 @@ export default {
     Main,
     Footer,
   },
+  data() {
+    return {
+      headerNavbar: [
+        { link: "Home" },
+        { link: "Rates" },
+        { link: "Testimonials" },
+        { link: "FAQ" },
+        { link: "Blog" },
+        { link: "Contact" },
+      ],
+    };
+  },
 };
 </script>
 
