@@ -25,7 +25,7 @@
       <div class="container h-100">
         <div class="row h-100 align-items-center">
           <!-- Logo -->
-          <div class="col-5">
+          <div class="col-4">
             <img
               src="../assets/images/avada-movers-logo.png"
               alt="avada-movers-logo"
@@ -33,10 +33,17 @@
           </div>
 
           <!-- Navbar -->
-          <div class="col-7">
+          <div class="col-8">
             <nav class="navbar">
               <div class="container-fluid">
-                <a class="navbar-brand" href="#">Link</a>
+                <a
+                  class="navbar-brand"
+                  href="#"
+                  v-for="(item, id) in navbarArray"
+                  :key="id"
+                >
+                  {{ item.link }}</a
+                >
               </div>
             </nav>
           </div>
@@ -49,6 +56,7 @@
 <script>
 export default {
   name: "Header",
+  props: ["navbarArray"],
 };
 </script>
 
@@ -67,7 +75,6 @@ header {
 
   #bottom-header {
     height: 110px;
-    background-color: violet;
   }
 }
 </style>

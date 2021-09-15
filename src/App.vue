@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header />
+    <Header :navbarArray="headerNavbar" />
     <Main />
     <Footer />
   </div>
@@ -21,12 +21,12 @@ export default {
   data() {
     return {
       headerNavbar: [
-        { link: "Home" },
-        { link: "Rates" },
-        { link: "Testimonials" },
-        { link: "FAQ" },
-        { link: "Blog" },
-        { link: "Contact" },
+        { link: "Home", id: "1" },
+        { link: "Rates", id: "2" },
+        { link: "Testimonials", id: "3" },
+        { link: "FAQ", id: "4" },
+        { link: "Blog", id: "5" },
+        { link: "Contact", id: "6" },
       ],
     };
   },
