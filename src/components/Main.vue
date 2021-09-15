@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h1>Test</h1>
+    <section id="slogan-jumbo" class="jumbotron"></section>
   </main>
 </template>
 
@@ -12,7 +12,11 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/scss/_variables.scss";
-h1 {
-  color: $sunglo;
+
+#slogan-jumbo {
+  height: 500px;
+  background-image: url("../assets/images/avada-movers-homeherobackground-final.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 </style>
