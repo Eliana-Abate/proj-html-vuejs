@@ -11,4 +11,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/scss/_variables.scss";
+h1 {
+  color: $lima;
+}
 </style>
