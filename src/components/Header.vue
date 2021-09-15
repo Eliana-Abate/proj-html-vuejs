@@ -71,7 +71,7 @@ export default {
 header {
   width: 100%;
   height: 160px;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   #top-header {

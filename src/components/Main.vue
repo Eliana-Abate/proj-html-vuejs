@@ -1,6 +1,18 @@
 <template>
   <main>
-    <section id="slogan-jumbo" class="jumbotron"></section>
+    <section id="slogan-jumbo" class="jumbotron">
+      <div class="row h-100 align-items-center">
+        <div>
+          <h6 class="fw-900">MOVING WITHOUT THE HASSLE</h6>
+          <h1 class="fw-900 my-4">WE MAKE IT SIMPLE</h1>
+          <h6 class="fw-900">
+            PROFESSIONAL SERVICE WITH QUALITY AND CUSTOMER SATISFACTION
+          </h6>
+        </div>
+      </div>
+    </section>
+
+    <div class="spacer"></div>
   </main>
 </template>
 
@@ -14,11 +26,22 @@ export default {
 @import "../assets/scss/_variables.scss";
 
 #slogan-jumbo {
-  height: 800px;
+  height: 750px;
+  margin-top: 60px;
   background-image: url("../assets/images/avada-movers-homeherobackground-final.jpg");
-  background-size: 155%;
-  background-position-x: center;
-  background-position-y: 60px;
+  background-size: cover;
   background-repeat: no-repeat;
+  h6 {
+    color: $dove-gray;
+  }
+  h1 {
+    color: $shark;
+    font-size: 4em;
+  }
+}
+
+.spacer {
+  height: 150px;
+  background-color: $denim-vibrant;
 }
 </style>
