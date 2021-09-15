@@ -21,7 +21,11 @@
     </section>
 
     <!-- BOTTOM HEADER -->
-    <section id="bottom-header"></section>
+    <section id="bottom-header">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center"></div>
+      </div>
+    </section>
   </header>
 </template>
 
