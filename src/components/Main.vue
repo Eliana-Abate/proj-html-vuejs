@@ -26,10 +26,12 @@ export default {
 @import "../assets/scss/_variables.scss";
 
 #slogan-jumbo {
-  height: 750px;
-  margin-top: 60px;
+  height: 800px;
+  padding-top: 60px;
   background-image: url("../assets/images/avada-movers-homeherobackground-final.jpg");
-  background-size: cover;
+  background-size: 120%;
+  background-position-x: center;
+  background-position-y: 60px;
   background-repeat: no-repeat;
   h6 {
     color: $dove-gray;
