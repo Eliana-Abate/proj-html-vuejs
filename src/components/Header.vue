@@ -34,16 +34,19 @@
 
           <!-- Navbar -->
           <div class="col-8">
-            <nav class="navbar">
-              <div class="container-fluid">
+            <nav class="navbar d-flex justify-content-end">
+              <div>
                 <a
-                  class="navbar-brand"
+                  class="navbar-brand nav-links mx-4"
                   href="#"
                   v-for="(item, id) in navbarArray"
                   :key="id"
                 >
                   {{ item.link }}</a
                 >
+                <button type="button" class="btn btn-denim ms-4">
+                  FREE QUOTE
+                </button>
               </div>
             </nav>
           </div>
@@ -69,12 +72,29 @@ header {
     background-color: $lima-dark-vibrant;
     color: white;
     span {
-      font-size: 1.1em;
+      font-size: 1em;
     }
   }
 
   #bottom-header {
     height: 110px;
+    .nav-links {
+      color: $shark-dark-muted;
+      font-size: 1em;
+      font-weight: 700;
+    }
+    .nav-links:hover {
+      color: $lima-dark-vibrant;
+    }
+
+    .btn-denim {
+      background-color: $denim-vibrant;
+      border-radius: 30px;
+      padding: 10px 40px;
+      color: white;
+      font-size: 0.9em;
+      font-weight: 700;
+    }
   }
 }
 </style>
