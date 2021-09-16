@@ -66,15 +66,21 @@
           </div>
         </div>
 
-        <div class="row"></div>
+        <div class="row">
+          <Card />
+        </div>
       </div>
     </section>
   </main>
 </template>
 
 <script>
+import Card from "@/components/Card.vue";
 export default {
   name: "Main",
+  components: {
+    Card,
+  },
 };
 </script>
 
