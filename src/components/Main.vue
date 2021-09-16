@@ -50,7 +50,7 @@
             sed, cursus arcu. Aliquam enim leo.
           </p>
 
-          <button type="button" class="btn btn-denim">
+          <button type="button" class="btn btn-denim mt-4">
             READ OUR TESTIMONIALS
           </button>
         </div>
@@ -94,9 +94,9 @@ export default {
 
 #award-jumbo {
   height: 600px;
-  background-color: $mercury;
+  background: linear-gradient($white, $mercury);
   h6 {
-    color: $dove-gray;
+    color: $silver-chalice;
   }
   h2 {
     color: $lima;
