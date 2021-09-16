@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header :navbarArray="headerNavbar" />
-    <Main />
+    <Main :servicesArray="services" />
     <Footer />
   </div>
 </template>
@@ -28,6 +28,7 @@ export default {
         { link: "Blog", id: "5" },
         { link: "Contact", id: "6" },
       ],
+
       services: [
         {
           title: "Two Man Teams",

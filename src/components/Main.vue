@@ -78,6 +78,7 @@
 import Card from "@/components/Card.vue";
 export default {
   name: "Main",
+  props: ["servicesArray"],
   components: {
     Card,
   },
