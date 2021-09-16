@@ -66,9 +66,7 @@
           </div>
         </div>
 
-        <div class="row">
-          <Card />
-        </div>
+        <Card :servicesList="servicesArray" />
       </div>
     </section>
   </main>
