@@ -1,7 +1,7 @@
 <template>
   <main>
     <section id="slogan-jumbo" class="jumbotron">
-      <div class="row h-100 align-items-center">
+      <div class="d-flex h-100 justify-content-center align-items-center">
         <div>
           <h6 class="fw-900">MOVING WITHOUT THE HASSLE</h6>
           <h1 class="fw-900 my-4">WE MAKE IT SIMPLE</h1>
@@ -12,12 +12,35 @@
       </div>
     </section>
 
-    <div class="spacer row align-items-center text-center">
+    <div
+      class="
+        spacer
+        d-flex
+        justify-content-center
+        align-items-center
+        text-center
+      "
+    >
       <span
         ><i class="far fa-paper-plane me-3"></i>GET A FREE QUOTE ONLINE
         NOW!</span
       >
     </div>
+
+    <section id="award-jumbo" class="jumbotron">
+      <div class="d-flex h-100 align-items-center justify-content-center">
+        <div class="cube">
+          <h6 class="fw-900">HEADACHE FREE</h6>
+          <h2 class="fw-900 my-4">Award Winning Moving Company</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
+            augue. Orci varius natoque penatibus et magnis dis parturient
+            montes, ridiculus mus. Aliquam enim leo, condimentum facilisis nulla
+            sed, cursus arcu. Aliquam enim leo.
+          </p>
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -52,5 +75,20 @@ export default {
   background-color: $denim-vibrant;
   color: $white;
   font-size: 1.2em;
+}
+
+#award-jumbo {
+  height: 600px;
+  background-color: $mercury;
+  h6 {
+    color: $dove-gray;
+  }
+  h2 {
+    color: $lima;
+    font-size: 3em;
+  }
+  p {
+    color: $shark;
+  }
 }
 </style>
