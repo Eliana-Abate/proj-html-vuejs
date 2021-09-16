@@ -28,6 +28,31 @@ export default {
         { link: "Blog", id: "5" },
         { link: "Contact", id: "6" },
       ],
+      services: [
+        {
+          title: "Two Man Teams",
+          id: "1",
+          image: "#",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac consectetur augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        },
+
+        {
+          title: "We Do All The Lifting",
+          id: "2",
+          image: "#",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac consectetur augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        },
+
+        {
+          title: "Coast To Coast",
+          id: "3",
+          image: "#",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac consectetur augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        },
+      ],
     };
   },
 };
