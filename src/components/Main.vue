@@ -49,6 +49,10 @@
             montes, ridiculus mus. Aliquam enim leo, condimentum facilisis nulla
             sed, cursus arcu. Aliquam enim leo.
           </p>
+
+          <button type="button" class="btn btn-denim">
+            READ OUR TESTIMONIALS
+          </button>
         </div>
       </div>
     </section>
