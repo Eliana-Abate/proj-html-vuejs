@@ -90,6 +90,9 @@ export default {
   background-color: $denim-vibrant;
   color: $white;
   font-size: 1.2em;
+  span:hover {
+    text-decoration: underline;
+  }
 }
 
 #award-jumbo {
