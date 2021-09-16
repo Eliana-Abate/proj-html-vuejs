@@ -56,6 +56,19 @@
         </div>
       </div>
     </section>
+
+    <section id="service-solutions">
+      <div class="container py-5">
+        <div class="row">
+          <div class="text-center">
+            <h6 class="fw-900">WE ARE A PROFESSIONAL</h6>
+            <h2 class="fw-900 my-4">Full-Service Solution</h2>
+          </div>
+        </div>
+
+        <div class="row"></div>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -107,6 +120,18 @@ export default {
   }
   p {
     color: $shark;
+  }
+}
+
+#service-solutions {
+  height: 100vh;
+  background-color: $white;
+  h6 {
+    color: $silver-chalice;
+  }
+  h2 {
+    color: $lima;
+    font-size: 3em;
   }
 }
 </style>
