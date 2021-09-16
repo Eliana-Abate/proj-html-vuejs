@@ -33,7 +33,7 @@ export default {
         {
           title: "Two Man Teams",
           id: "1",
-          image: "#",
+          image: "avada-movers-serviceonephoto-final-400x255",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac consectetur augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
         },
@@ -41,7 +41,7 @@ export default {
         {
           title: "We Do All The Lifting",
           id: "2",
-          image: "#",
+          image: "avada-movers-servicetwophoto-final-400x255",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac consectetur augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
         },
@@ -49,7 +49,7 @@ export default {
         {
           title: "Coast To Coast",
           id: "3",
-          image: "#",
+          image: "avada-movers-servicethreephoto-final-400x255",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac consectetur augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
         },

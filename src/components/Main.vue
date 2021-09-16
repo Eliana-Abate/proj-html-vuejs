@@ -58,9 +58,9 @@
     </section>
 
     <section id="service-solutions">
-      <div class="container py-5">
+      <div class="container">
         <div class="row">
-          <div class="text-center">
+          <div class="text-center pb-5">
             <h6 class="fw-900">WE ARE A PROFESSIONAL</h6>
             <h2 class="fw-900 my-4">Full-Service Solution</h2>
           </div>
@@ -129,8 +129,11 @@ export default {
 }
 
 #service-solutions {
-  height: 100vh;
+  height: 1000px;
   background-color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   h6 {
     color: $silver-chalice;
   }
