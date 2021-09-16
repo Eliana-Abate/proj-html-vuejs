@@ -29,9 +29,20 @@
 
     <section id="award-jumbo" class="jumbotron">
       <div class="d-flex h-100 align-items-center justify-content-center">
-        <div class="cube">
+        <div
+          class="
+            cube
+            d-flex
+            flex-column
+            h-100
+            align-items-center
+            justify-content-center
+          "
+        >
           <h6 class="fw-900">HEADACHE FREE</h6>
-          <h2 class="fw-900 my-4">Award Winning Moving Company</h2>
+          <div class="wrap-cube">
+            <h2 class="fw-900 my-4">Award Winning Moving Company</h2>
+          </div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
             augue. Orci varius natoque penatibus et magnis dis parturient
