@@ -12,7 +12,12 @@
       </div>
     </section>
 
-    <div class="spacer"></div>
+    <div class="spacer row align-items-center text-center">
+      <span
+        ><i class="far fa-paper-plane me-3"></i>GET A FREE QUOTE ONLINE
+        NOW!</span
+      >
+    </div>
   </main>
 </template>
 
@@ -45,5 +50,7 @@ export default {
 .spacer {
   height: 150px;
   background-color: $denim-vibrant;
+  color: $white;
+  font-size: 1.2em;
 }
 </style>
