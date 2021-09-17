@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header :navbarArray="headerNavbar" />
-    <Main :servicesArray="services" />
+    <Main :servicesArray="services" :testimonialsArray="testimonials" />
     <Footer />
   </div>
 </template>
@@ -52,6 +52,27 @@ export default {
           image: "avada-movers-servicethreephoto-final-400x255",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac consectetur augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        },
+      ],
+
+      testimonials: [
+        {
+          name: "Jonh Doe",
+          id: "1",
+          comment:
+            "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus dolor, aliquet sed maximus et, vestibulum pulvinar leo. Vivamus varius pretium fermentum.”",
+        },
+        {
+          name: "Jane Doe",
+          id: "2",
+          comment:
+            "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus dolor, aliquet sed maximus et, vestibulum pulvinar leo. Vivamus varius pretium fermentum.”",
+        },
+        {
+          name: "John Smith",
+          id: "3",
+          comment:
+            "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus dolor, aliquet sed maximus et, vestibulum pulvinar leo. Vivamus varius pretium fermentum.”",
         },
       ],
     };

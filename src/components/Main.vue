@@ -12,6 +12,7 @@
       </div>
     </section>
 
+    <!-- spacer -->
     <div
       class="
         spacer
@@ -27,6 +28,7 @@
       >
     </div>
 
+    <!-- winning award -->
     <section id="award-jumbo" class="jumbotron">
       <div class="d-flex h-100 align-items-center justify-content-center">
         <div
@@ -57,6 +59,7 @@
       </div>
     </section>
 
+    <!-- services -->
     <section id="service-solutions">
       <div class="container">
         <div class="row">
@@ -70,11 +73,12 @@
       </div>
     </section>
 
+    <!-- move ease -->
     <section id="move-ease-slogan" class="jumbotron">
       <div class="container h-100">
         <div class="row h-100">
           <div class="ms-auto col-6">
-            <div class="d-flex align-items-center h-100s">
+            <div class="d-flex align-items-center h-100">
               <div class="move-banner">
                 <div class="d-flex flex-column align-items-center">
                   <h6 class="fw-900">WE REMOVE THE HEADACHE FROM MOVING</h6>
@@ -98,16 +102,31 @@
         </div>
       </div>
     </section>
+
+    <section id="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="text-center pb-5">
+            <h6 class="fw-900">HAPPY CUSTOMERS</h6>
+            <h2 class="fw-900 my-4">Testimonials</h2>
+          </div>
+        </div>
+
+        <TestimonialCard :testimonialsList="testimonialsArray" />
+      </div>
+    </section>
   </main>
 </template>
 
 <script>
 import Card from "@/components/Card.vue";
+import TestimonialCard from "@/components/TestimonialCard.vue";
 export default {
   name: "Main",
-  props: ["servicesArray"],
+  props: ["servicesArray", "testimonialsArray"],
   components: {
     Card,
+    TestimonialCard,
   },
 };
 </script>
@@ -158,8 +177,12 @@ export default {
 }
 
 #service-solutions {
-  height: 1000px;
   background-color: $white;
+}
+
+#service-solutions,
+#testimonials {
+  height: 1000px;
   display: flex;
   justify-content: center;
   align-items: center;
