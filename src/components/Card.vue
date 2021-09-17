@@ -34,29 +34,24 @@ export default {
 @import "../assets/scss/_variables.scss";
 .card-template {
   border: 20px solid $mercury;
-}
-
-.img-box {
-  height: 230px;
-  border-bottom: 20px solid $mercury;
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  transition: transform 0.5s;
+  .img-box {
+    height: 230px;
+    border-bottom: 20px solid $mercury;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   }
 }
-.w-410 {
-  width: 410px;
+
+.card-template:hover {
+  transform: scale(1.02);
 }
 
 .card-template-body {
   padding: 40px 12px;
-  h3 {
-    color: $denim-vibrant;
-  }
-  p {
-    color: $dove-gray;
-  }
 }
 
 .col-4:nth-child(2) {

@@ -35,18 +35,8 @@ img {
   border-radius: 50%;
 }
 
-.w-410 {
-  width: 410px;
-}
-
 .card-template-body {
   padding: 40px 8px;
-  h3 {
-    color: $denim-vibrant;
-  }
-  p {
-    color: $dove-gray;
-  }
 }
 
 .col-4:nth-child(2) {
