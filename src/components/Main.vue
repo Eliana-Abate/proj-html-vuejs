@@ -207,7 +207,7 @@ export default {
     font-size: 3em;
   }
   p {
-    color: $shark;
+    color: $dove-gray;
   }
 }
 
@@ -266,7 +266,6 @@ export default {
 
 #request-quote-jumbo {
   height: 500px;
-  border-bottom: 15px solid $lima;
   background-image: url("../assets/images/avada-movers-request-quote-background.jpg");
   background-position: center;
   background-size: cover;
