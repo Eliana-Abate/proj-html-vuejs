@@ -70,10 +70,31 @@
       </div>
     </section>
 
-    <section id="move-slogan" class="jumbotron">
-      <div class="container">
-        <div class="row">
-          <div class="col-6"></div>
+    <section id="move-ease-slogan" class="jumbotron">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="ms-auto col-6">
+            <div class="d-flex align-items-center h-100s">
+              <div class="move-banner">
+                <div class="d-flex flex-column align-items-center">
+                  <h6 class="fw-900">WE REMOVE THE HEADACHE FROM MOVING</h6>
+                  <h2 class="fw-900">Move With Ease</h2>
+                  <div class="hr-spacer my-2"></div>
+                  <p class="pt-4">
+                    With our super simple service we can take you from getting a
+                    quote, right through to being in your new home with all of
+                    your belongings securely packed and safely delivered, even
+                    in the rooms of your choice.
+                  </p>
+                  <div>
+                    <button type="button" class="btn btn-denim mt-4">
+                      GET A FREE QUOTE NOW
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -151,9 +172,29 @@ export default {
   }
 }
 
-#move-slogan {
+#move-ease-slogan {
   height: 700px;
   background-image: url("../assets/images/avada-movers-movewithease-background-new.jpg");
   background-size: cover;
+  .move-banner {
+    width: 100%;
+    height: 420px;
+    padding: 50px;
+    background-color: $lima;
+    border: 15px solid $hippie-green;
+    color: white;
+    h2 {
+      font-size: 3em;
+    }
+    p {
+      line-height: 200%;
+    }
+  }
+}
+
+.hr-spacer {
+  width: 75%;
+  height: 0.5px;
+  background-color: $brillant;
 }
 </style>
