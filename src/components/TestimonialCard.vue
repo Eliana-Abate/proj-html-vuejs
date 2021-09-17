@@ -5,8 +5,8 @@
         <img :src="getImage(item.image)" :alt="item.name" />
 
         <div class="card-template-body text-center">
-          <h3 class="fw-700">{{ item.name }}</h3>
-          <p>
+          <h3 class="fw-700 mb-4">{{ item.name }}</h3>
+          <p class="pt-3">
             <em>{{ item.comment }}</em>
           </p>
         </div>
@@ -40,7 +40,7 @@ img {
 }
 
 .card-template-body {
-  padding: 40px 12px;
+  padding: 40px 8px;
   h3 {
     color: $denim-vibrant;
   }
