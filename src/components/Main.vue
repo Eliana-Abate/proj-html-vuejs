@@ -191,7 +191,12 @@ export default {
   background-color: $denim-vibrant;
   color: $white;
   font-size: 1.2em;
-  span:hover {
+  letter-spacing: 2px;
+}
+
+.spacer:hover {
+  filter: brightness(1.15);
+  span {
     text-decoration: underline;
   }
 }
@@ -236,7 +241,7 @@ export default {
 .hr-spacer {
   width: 75%;
   height: 0.5px;
-  background-color: $hr-cube;
+  background-color: $oslo-gray;
 }
 
 #testimonials {
