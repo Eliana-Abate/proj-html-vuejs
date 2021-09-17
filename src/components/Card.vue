@@ -56,7 +56,6 @@ export default {
   }
   p {
     color: $dove-gray;
-    line-height: 200%;
   }
 }
 

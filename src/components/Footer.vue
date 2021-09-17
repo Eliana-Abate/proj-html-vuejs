@@ -88,7 +88,7 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/scss/_variables.scss";
 footer {
-  border-top: 15px solid $lima;
+  border-top: 15px solid $primary-color;
 }
 
 #utilities {
@@ -101,15 +101,11 @@ footer {
       color: $lima;
     }
   }
-  p,
-  li {
-    line-height: 200%;
-  }
 }
 
 #legal-info {
   height: 150px;
-  background-color: $lima;
+  background-color: $primary-color;
   color: $white;
 }
 </style>

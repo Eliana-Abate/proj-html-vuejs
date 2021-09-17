@@ -77,9 +77,11 @@ header {
   left: 0;
   #top-header {
     height: 50px;
-    background-color: $lima-dark-vibrant;
-    color: $white;
+    background-color: $primary-color;
     font-size: 0.9em;
+    p {
+      color: $white;
+    }
   }
 
   #bottom-header {

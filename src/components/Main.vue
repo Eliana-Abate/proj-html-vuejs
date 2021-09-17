@@ -199,16 +199,6 @@ export default {
 #award-jumbo {
   height: 600px;
   background: linear-gradient($white, $mercury);
-  h6 {
-    color: $silver-chalice;
-  }
-  h2 {
-    color: $lima;
-    font-size: 3em;
-  }
-  p {
-    color: $dove-gray;
-  }
 }
 
 #service-solutions {
@@ -222,13 +212,6 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  h6 {
-    color: $silver-chalice;
-  }
-  h2 {
-    color: $lima;
-    font-size: 3em;
-  }
 }
 
 #move-ease-slogan {
@@ -239,14 +222,13 @@ export default {
     width: 100%;
     height: 420px;
     padding: 50px;
-    background-color: $lima;
+    background-color: $primary-color;
     border: 15px solid $hippie-green;
-    color: white;
-    h2 {
-      font-size: 3em;
-    }
+    color: $white;
+    h2,
+    h6,
     p {
-      line-height: 200%;
+      color: $white;
     }
   }
 }
@@ -254,7 +236,7 @@ export default {
 .hr-spacer {
   width: 75%;
   height: 0.5px;
-  background-color: $brillant;
+  background-color: $hr-cube;
 }
 
 #testimonials {
@@ -269,12 +251,5 @@ export default {
   background-image: url("../assets/images/avada-movers-request-quote-background.jpg");
   background-position: center;
   background-size: cover;
-  h2 {
-    color: $lima;
-    font-size: 3em;
-  }
-  p {
-    color: $dove-gray;
-  }
 }
 </style>

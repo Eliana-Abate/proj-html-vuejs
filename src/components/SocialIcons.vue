@@ -19,6 +19,6 @@ export default {
 .fab,
 .fas {
   color: $white;
-  font-size: 1.3em;
+  font-size: 20px;
 }
 </style>
