@@ -69,6 +69,14 @@
         <Card :servicesList="servicesArray" />
       </div>
     </section>
+
+    <section id="move-slogan" class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-6"></div>
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -87,12 +95,12 @@ export default {
 @import "../assets/scss/_variables.scss";
 
 #slogan-jumbo {
-  height: 800px;
-  padding-top: 60px;
+  height: 630px;
+  padding-top: 50px;
   background-image: url("../assets/images/avada-movers-homeherobackground-final.jpg");
-  background-size: 120%;
+  background-size: 118%;
   background-position-x: center;
-  background-position-y: 60px;
+  background-position-y: 50px;
   background-repeat: no-repeat;
   h6 {
     color: $dove-gray;
@@ -104,7 +112,7 @@ export default {
 }
 
 .spacer {
-  height: 150px;
+  height: 140px;
   background-color: $denim-vibrant;
   color: $white;
   font-size: 1.2em;
@@ -141,5 +149,11 @@ export default {
     color: $lima;
     font-size: 3em;
   }
+}
+
+#move-slogan {
+  height: 700px;
+  background-image: url("../assets/images/avada-movers-movewithease-background-new.jpg");
+  background-size: cover;
 }
 </style>
