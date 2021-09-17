@@ -1,8 +1,10 @@
 <template>
   <footer>
+    <!-- UTILITIES MENU -->
     <section id="utilities">
       <div class="container h-100">
         <div class="row h-100 align-items-center">
+          <!-- first column -->
           <div class="col-4 p-4">
             <h4 class="fw-700 mb-5">ABOUT</h4>
             <p class="mb-5">
@@ -16,6 +18,7 @@
             />
           </div>
 
+          <!-- second column -->
           <div class="col-4 p-4">
             <h4 class="fw-700 mb-5">AVADA MOVERS</h4>
             <ul v-for="(item, id) in footerNavbar" :key="id" class="p-0">
@@ -26,6 +29,7 @@
             </ul>
           </div>
 
+          <!-- third column -->
           <div class="col-4 p-4">
             <h4 class="fw-700 mb-5">RECENT POSTS</h4>
             <ul v-for="(item, id) in postsLink" :key="id" class="p-0">
@@ -39,6 +43,7 @@
       </div>
     </section>
 
+    <!-- COPYRIGTH INFO AND SOCIAL-->
     <section id="legal-info">
       <div class="container h-100">
         <div class="row h-100 text-center align-content-center">
@@ -49,6 +54,8 @@
               Reserved | Powered by WordPress</span
             >
           </div>
+
+          <!-- Social icons -->
           <SocialIcons />
         </div>
       </div>
@@ -87,15 +94,18 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/scss/_variables.scss";
+
 footer {
   border-top: 15px solid $primary-color;
 }
 
+//* -- UTILITIES SECTION --
 #utilities {
   height: 500px;
   ul {
     li {
       list-style-type: none;
+      cursor: pointer;
     }
     li:hover {
       color: $lima;
@@ -103,6 +113,7 @@ footer {
   }
 }
 
+//* -- COPYRIGTH INFO AND SOCIAL--
 #legal-info {
   height: 150px;
   background-color: $primary-color;

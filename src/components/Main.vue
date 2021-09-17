@@ -1,5 +1,6 @@
 <template>
   <main>
+    <!-- SLOGAN: WE MAKE IT SIMPLE -->
     <section id="slogan-jumbo" class="jumbotron">
       <div class="d-flex h-100 justify-content-center align-items-center">
         <div>
@@ -12,7 +13,7 @@
       </div>
     </section>
 
-    <!-- spacer -->
+    <!-- SPACER BUTTON -->
     <div
       class="
         spacer
@@ -28,7 +29,7 @@
       >
     </div>
 
-    <!-- winning award -->
+    <!-- Award Winning Moving Company -->
     <section id="award-jumbo" class="jumbotron">
       <div class="d-flex h-100 align-items-center justify-content-center">
         <div
@@ -59,7 +60,7 @@
       </div>
     </section>
 
-    <!-- services -->
+    <!-- Full-Service Solutions -->
     <section id="service-solutions">
       <div class="container">
         <div class="row">
@@ -73,7 +74,7 @@
       </div>
     </section>
 
-    <!-- move ease -->
+    <!-- Move With Ease -->
     <section id="move-ease-slogan" class="jumbotron">
       <div class="container h-100">
         <div class="row h-100">
@@ -103,7 +104,7 @@
       </div>
     </section>
 
-    <!-- testimonials -->
+    <!-- Testimonials -->
     <section id="testimonials">
       <div class="container">
         <div class="row">
@@ -125,7 +126,7 @@
       </div>
     </section>
 
-    <!-- request free quote -->
+    <!-- Request Free Quote -->
     <section id="request-quote-jumbo" class="jumbotron">
       <div class="d-flex h-100 align-items-center justify-content-center">
         <div
@@ -156,6 +157,7 @@
 <script>
 import Card from "@/components/Card.vue";
 import TestimonialCard from "@/components/TestimonialCard.vue";
+
 export default {
   name: "Main",
   props: ["servicesArray", "testimonialsArray"],
@@ -169,6 +171,7 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/scss/_variables.scss";
 
+//* -- SLOGAN: WE MAKE IT SIMPLE --
 #slogan-jumbo {
   height: 630px;
   padding-top: 50px;
@@ -186,12 +189,14 @@ export default {
   }
 }
 
+//* -- SPACER BUTTON --
 .spacer {
   height: 140px;
   background-color: $denim-vibrant;
   color: $white;
   font-size: 1.2em;
   letter-spacing: 2px;
+  cursor: pointer;
 }
 
 .spacer:hover {
@@ -201,16 +206,18 @@ export default {
   }
 }
 
+//* -- AWARD WINNING MOVING COMPANY --
 #award-jumbo {
   height: 600px;
   background: linear-gradient($white, $mercury);
 }
 
+//* -- FULL-SERVICE SOLUTIONS --
 #service-solutions {
   background-color: $white;
   height: 1000px;
 }
-
+//! COMMON STYLE: full-service and testimonials sections
 #service-solutions,
 #testimonials {
   height: 1000px;
@@ -219,6 +226,7 @@ export default {
   align-items: center;
 }
 
+//* -- MOVE WITH EASE --
 #move-ease-slogan {
   height: 700px;
   background-image: url("../assets/images/avada-movers-movewithease-background-new.jpg");
@@ -244,6 +252,7 @@ export default {
   background-color: $oslo-gray;
 }
 
+//* TESTIMONIALS
 #testimonials {
   background-image: url("../assets/images/avada-movers-testimonial-background.jpg");
   background-size: 140%;
@@ -251,6 +260,7 @@ export default {
   background-repeat: no-repeat;
 }
 
+//* REQUEST FREE QUOTE
 #request-quote-jumbo {
   height: 500px;
   background-image: url("../assets/images/avada-movers-request-quote-background.jpg");

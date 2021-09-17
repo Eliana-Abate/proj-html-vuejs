@@ -2,8 +2,10 @@
   <section class="row">
     <div class="col-4 w-410" v-for="(item, id) in testimonialsList" :key="id">
       <div class="card-template d-flex flex-column align-items-center">
+        <!-- IMAGE -->
         <img :src="getImage(item.image)" :alt="item.name" />
 
+        <!-- DESCRIPTION -->
         <div class="card-template-body text-center">
           <h3 class="fw-700 mb-4">{{ item.name }}</h3>
           <p class="pt-3">
@@ -30,16 +32,18 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/scss/_variables.scss";
 
+.col-4:nth-child(2) {
+  margin: 0 auto;
+}
+
+//* -- Image style --
 img {
   width: 40%;
   border-radius: 50%;
 }
 
+//* -- Description --
 .card-template-body {
   padding: 40px 8px;
-}
-
-.col-4:nth-child(2) {
-  margin: 0 auto;
 }
 </style>

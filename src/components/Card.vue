@@ -2,10 +2,12 @@
   <section class="row">
     <div class="col-4 w-410" v-for="(item, id) in servicesList" :key="id">
       <div class="card-template">
+        <!-- IMAGE -->
         <div class="img-box">
           <img :src="getImage(item.image)" :alt="item.title" />
         </div>
 
+        <!-- DESCRIPTION -->
         <div class="card-template-body text-center">
           <h3 class="fw-700">{{ item.title }}</h3>
           <p>{{ item.description }}</p>
@@ -32,6 +34,12 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/scss/_variables.scss";
+
+.col-4:nth-child(2) {
+  margin: 0 auto;
+}
+
+//* -- Card template and image style --
 .card-template {
   border: 20px solid $mercury;
   transition: transform 0.5s;
@@ -50,11 +58,8 @@ export default {
   transform: scale(1.02);
 }
 
+//* -- Card description --
 .card-template-body {
   padding: 40px 12px;
-}
-
-.col-4:nth-child(2) {
-  margin: 0 auto;
 }
 </style>

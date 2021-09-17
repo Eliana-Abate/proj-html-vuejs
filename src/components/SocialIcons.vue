@@ -20,5 +20,6 @@ export default {
 .fas {
   color: $white;
   font-size: 20px;
+  cursor: pointer;
 }
 </style>
