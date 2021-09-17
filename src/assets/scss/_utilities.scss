@@ -1,3 +1,26 @@
+//*WIDTH 
+.w-410 {
+  width: 410px;
+}
+
+
+//* FONT-WEIGHT
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+
+//* SECTIONS 
+.jumbotron {
+  text-align: center;
+}
+
+
+//* BUTTONS
 .btn-denim {
     background-color: $denim-vibrant;
     border-radius: 30px;
@@ -12,10 +35,8 @@
   filter: brightness(1.15);
 }
 
-.jumbotron {
-    text-align: center;
-}
 
+//*WRAPPERS
 .cube {
   width: 50%;
 }
@@ -24,15 +45,4 @@
   width: 50%;
 }
 
-.fw-700 {
-  font-weight: 700;
-}
-
-.fw-900 {
-  font-weight: 900;
-}
-
-.w-410 {
-  width: 410px;
-}
 
