@@ -103,6 +103,7 @@
       </div>
     </section>
 
+    <!-- testimonials -->
     <section id="testimonials">
       <div class="container">
         <div class="row">
@@ -120,6 +121,32 @@
               READ MORE TESTIMONIALS
             </button>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- request free quote -->
+    <section id="request-quote-jumbo" class="jumbotron">
+      <div class="d-flex h-100 align-items-center justify-content-center">
+        <div
+          class="
+            cube
+            d-flex
+            flex-column
+            h-100
+            align-items-center
+            justify-content-center
+          "
+        >
+          <h2 class="fw-900 my-4">Request A Free Quote</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
+            consectetur augue. Orci varius natoque penatibus et magnis dis
+            parturient montes, nascetur ridiculus mus.
+          </p>
+
+          <button type="button" class="btn btn-denim mt-4">CLICK HERE</button>
         </div>
       </div>
     </section>
@@ -235,5 +262,20 @@ export default {
   background-size: 140%;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+#request-quote-jumbo {
+  height: 500px;
+  border-bottom: 15px solid $lima;
+  background-image: url("../assets/images/avada-movers-request-quote-background.jpg");
+  background-position: center;
+  background-size: cover;
+  h2 {
+    color: $lima;
+    font-size: 3em;
+  }
+  p {
+    color: $dove-gray;
+  }
 }
 </style>
