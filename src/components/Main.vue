@@ -113,6 +113,14 @@
         </div>
 
         <TestimonialCard :testimonialsList="testimonialsArray" />
+
+        <div class="row mt-3">
+          <div class="d-flex justify-content-center">
+            <button type="button" class="btn btn-denim mt-4">
+              READ MORE TESTIMONIALS
+            </button>
+          </div>
+        </div>
       </div>
     </section>
   </main>
@@ -178,6 +186,7 @@ export default {
 
 #service-solutions {
   background-color: $white;
+  height: 1000px;
 }
 
 #service-solutions,
@@ -219,5 +228,12 @@ export default {
   width: 75%;
   height: 0.5px;
   background-color: $brillant;
+}
+
+#testimonials {
+  background-image: url("../assets/images/avada-movers-testimonial-background.jpg");
+  background-size: 140%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 </style>

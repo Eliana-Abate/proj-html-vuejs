@@ -1,10 +1,14 @@
 <template>
   <section class="row">
     <div class="col-4 w-410" v-for="(item, id) in testimonialsList" :key="id">
-      <div class="card-template">
+      <div class="card-template d-flex flex-column align-items-center">
+        <img :src="getImage(item.image)" :alt="item.name" />
+
         <div class="card-template-body text-center">
           <h3 class="fw-700">{{ item.name }}</h3>
-          <p>{{ item.comment }}</p>
+          <p>
+            <em>{{ item.comment }}</em>
+          </p>
         </div>
       </div>
     </div>
@@ -25,6 +29,11 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/scss/_variables.scss";
+
+img {
+  width: 40%;
+  border-radius: 50%;
+}
 
 .w-410 {
   width: 410px;

@@ -59,18 +59,21 @@ export default {
         {
           name: "Jonh Doe",
           id: "1",
+          image: "avada-movers-johndoe-final-200x200",
           comment:
             "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus dolor, aliquet sed maximus et, vestibulum pulvinar leo. Vivamus varius pretium fermentum.”",
         },
         {
           name: "Jane Doe",
           id: "2",
+          image: "avada-movers-janedoe-final-200x200",
           comment:
             "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus dolor, aliquet sed maximus et, vestibulum pulvinar leo. Vivamus varius pretium fermentum.”",
         },
         {
           name: "John Smith",
           id: "3",
+          image: "avada-movers-johnsmith-final-200x200",
           comment:
             "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus dolor, aliquet sed maximus et, vestibulum pulvinar leo. Vivamus varius pretium fermentum.”",
         },
