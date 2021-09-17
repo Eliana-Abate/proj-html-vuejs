@@ -3,8 +3,7 @@
     <section id="utilities">
       <div class="container h-100">
         <div class="row h-100 align-items-center">
-          <div class="col-4">
-            <div></div>
+          <div class="col-4 p-4">
             <h4 class="fw-700 mb-5">ABOUT</h4>
             <p class="mb-5">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
@@ -17,7 +16,7 @@
             />
           </div>
 
-          <div class="col-4">
+          <div class="col-4 p-4">
             <h4 class="fw-700 mb-5">AVADA MOVERS</h4>
             <ul v-for="(item, id) in footerNavbar" :key="id" class="p-0">
               <li>
@@ -27,7 +26,7 @@
             </ul>
           </div>
 
-          <div class="col-4">
+          <div class="col-4 p-4">
             <h4 class="fw-700 mb-5">RECENT POSTS</h4>
             <ul v-for="(item, id) in postsLink" :key="id" class="p-0">
               <li>
@@ -76,7 +75,7 @@ footer {
 }
 
 #utilities {
-  height: 450px;
+  height: 500px;
   ul {
     li {
       list-style-type: none;
@@ -84,6 +83,10 @@ footer {
     li:hover {
       color: $lima;
     }
+  }
+  p,
+  li {
+    line-height: 200%;
   }
 }
 
