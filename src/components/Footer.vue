@@ -42,19 +42,14 @@
     <section id="legal-info">
       <div class="container h-100">
         <div class="row h-100 text-center align-content-center">
-          <div>
+          <div class="mb-4">
             <span>&copy; </span>
             <span
               >Copyright 2012 - 2021 | Avada Theme by ThemeFusion | All Rights
               Reserved | Powered by WordPress</span
             >
           </div>
-          <div class="mt-4">
-            <span class="mx-3"><i class="fab fa-facebook-f"></i></span>
-            <span class="mx-3"><i class="fab fa-twitter"></i></span>
-            <span class="mx-3"><i class="fab fa-instagram"></i></span>
-            <span class="ms-3"><i class="fab fa-youtube"></i></span>
-          </div>
+          <SocialIcons />
         </div>
       </div>
     </section>
@@ -62,8 +57,12 @@
 </template>
 
 <script>
+import SocialIcons from "@/components/SocialIcons.vue";
 export default {
   name: "Footer",
+  components: {
+    SocialIcons,
+  },
   data() {
     return {
       footerNavbar: [
@@ -112,8 +111,5 @@ footer {
   height: 150px;
   background-color: $lima;
   color: $white;
-  .fab {
-    font-size: 1.3em;
-  }
 }
 </style>

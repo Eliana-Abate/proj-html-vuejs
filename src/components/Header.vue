@@ -14,10 +14,7 @@
 
           <!-- Social Icons -->
           <div class="col-6 text-end">
-            <span class="mx-3"><i class="fab fa-facebook-f"></i></span>
-            <span class="mx-3"><i class="fab fa-twitter"></i></span>
-            <span class="mx-3"><i class="fab fa-instagram"></i></span>
-            <span class="ms-3"><i class="fab fa-youtube"></i></span>
+            <SocialIcons />
           </div>
         </div>
       </div>
@@ -60,8 +57,12 @@
 </template>
 
 <script>
+import SocialIcons from "@/components/SocialIcons.vue";
 export default {
   name: "Header",
+  components: {
+    SocialIcons,
+  },
   props: ["navbarArray"],
 };
 </script>
@@ -77,12 +78,8 @@ header {
   #top-header {
     height: 50px;
     background-color: $lima-dark-vibrant;
-    color: white;
+    color: $white;
     font-size: 0.9em;
-    .fas,
-    .fab {
-      font-size: 1.3em;
-    }
   }
 
   #bottom-header {
